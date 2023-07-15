@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+ }
+ body{
+    background-color: #C0CFFA;
+    display: grid;
+    height: 100vh;
+    place-items: center;
+    background-image: url("https://img.freepik.com/free-vector/mathematics-background-geometric-frame-modern-education-design-vector_53876-156362.jpg?size=626&ext=jpg&ga=GA1.2.1636488354.1689397512&semt=sph");
+    background-size: cover;
+   }
+ .main{
+    width: 400px;
+    height: 450px;
+    background-color: white;
+    position: absolute;
+    border-radius: 6px; 
+ }
+ .main input[type='text'] {
+    width: 88%;
+    position: relative;
+    height: 80px;
+    top: 5px;
+    text-align: right;
+    padding: 3px 6px;
+    outline: none;
+    font-size: 40px;
+    background-color: #3e8576;
+    display: flex;
+    margin: auto;
+    border-radius: 6px;
+    color: black;
+ }
+ .grey{
+    margin: 2px 0px;
+    position: relative;
+    padding: 2px;
+    left: 13px;
+    top: 20px;
+    width:90px;
+    height: 60px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.5s;
+    background-color: #2662a3;
+    color: white;
+    border-radius: 50%;
+    border-radius: 6px;
+ }
+ .grey:hover{
+    background-color: #334173;
+    color: white;
+ } 
+ 
+.blue{
+    margin: 2px 0px;
+    position: relative;
+    padding: 2px;
+    left: 13px;
+    top: 20px;
+    width:90px;
+    height: 60px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.5s;
+    background-color: rgb(44, 149, 179);
+    color: white;
+    border-radius: 6px;
+ }
+ .red{
+    margin: 2px 0px;
+    position: relative;
+    padding: 2px;
+    left: 13px;
+    top: 20px;
+    width:90px;
+    height: 60px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.5s;
+    background-color: red;
+    color: white;
+    border-radius: 6px;
+ }
+ .green{
+   margin: 2px 0px;
+   position: relative;
+   padding: 2px;
+   left: 13px;
+   top: 20px;
+   width:90px;
+   height: 60px;
+   cursor: pointer;
+   font-size: 18px;
+   transition: 0.5s;
+   background-color: green;
+   color: white;
+   border-radius: 6px;
+}
+ h1{
+    margin-top: -38%;
+    color:white;
+    text-decoration: underline;
+ }
