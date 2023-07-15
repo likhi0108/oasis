@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="stylesheet" href="style.css">
+   <title>Calculator</title>
+</head>
+<body>
+    
+    <h1 style="color:white">Calculator</h1>
+    
+   <div class="main">
+      <input type="text" id = 'res'>
+      <div class="btns">
+         <input type="button" class="red" value = 'C' onclick = "Clear()">
+         <input type="button" class="blue" value = '%' onclick = "Calculate('%')">
+         <input type="button" class="blue" value = '←' onclick = "Back('←')">
+         <input type="button" class="blue" value = '/' onclick = "Calculate('/')">
+         <br>
+         <input type="button" class="grey" value = '7' onclick = "Calculate('7')">
+         <input type="button" class="grey" value = '8' onclick = "Calculate('8')">
+         <input type="button" class="grey" value = '9' onclick = "Calculate('9')">
+         <input type="button" class="blue" value = 'x' onclick = "Calculate('*')">
+         <br>
+         <input type="button" class="grey" value = '4' onclick = "Calculate('4')">
+         <input type="button" class="grey" value = '5' onclick = "Calculate('5')">
+         <input type="button" class="grey" value = '6' onclick = "Calculate('6')">
+         <input type="button" class="blue" value = '-' onclick = "Calculate('-')">
+         <br>
+         <input type="button" class="grey" value = '1' onclick = "Calculate('1')">
+         <input type="button" class="grey" value = '2' onclick = "Calculate('2')">
+         <input type="button" class="grey" value = '3' onclick = "Calculate('3')">
+         <input type="button" class="blue" value = '+' onclick = "Calculate('+')">
+         <br>
+         <input type="button" class="grey" value = '00'onclick = "Calculate('00')">
+         <input type="button" class="grey" value = '0' onclick = "Calculate('0')">
+         <input type="button" class="grey" value = '.' onclick = "Calculate('.')">
+         <input type="button" class="green" value = '=' onclick = "Result()">
+      </div>
+   </div>
+   <script src = 'script.js' ></script>
+</body>
+</html>
